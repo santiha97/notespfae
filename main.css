@@ -1,0 +1,21 @@
+article {
+    border: 1px solid #000;
+    display: flex;
+}
+
+section {
+    height: 20px;
+    width: 10%;
+}
+
+#izda {
+    background-color: green;
+}
+
+#dcha {
+    background-color: blue;
+}
+
+#centro {
+    background-color: red;
+}
