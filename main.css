@@ -1,21 +1,36 @@
 article {
     border: 1px solid #000;
     display: flex;
+    background: #ececec;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 300px;
 }
 
-section {
-    height: 20px;
-    width: 10%;
+.elemento {
+    color: #000;
+    text-align: center;
+    margin: 1px;
+    width: 30%;
 }
 
-#izda {
-    background-color: green;
+.elem_01 {
+    background-color: lightgreen;
+    align-self: flex-end;
 }
 
-#dcha {
-    background-color: blue;
+.elem_02 {
+    background-color: greenyellow;
 }
 
-#centro {
-    background-color: red;
+.elem_03 {
+    background-color: turquoise;
+}
+
+.elem_04 {
+    background-color: lightblue;
+}
+
+.elem_05 {
+    background-color: paleturquoise;
 }
